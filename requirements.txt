@@ -1,0 +1,13 @@
+pandas
+numpy
+tensorflow
+matplotlib
+sklearn
+ipywidgets
+graphviz
+hdbscan
+skimage
+scipy
+seaborn
+plotly
+Pillow
