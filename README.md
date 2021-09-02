@@ -17,7 +17,7 @@ Weitere Information finden sich [hier](Woche%201/1%20Erste%20Schritte.md).
     <tbody>
         <tr>
             <td><a href='Woche%201'><strong>Woche&nbsp;1</strong></a></td>
-            <td><a href='Woche%201/1%20Erste%20Schritte.md'>1 Erste Schritte</a></br></td>
+            <td><a href='Woche%201/0%20Installation%20und%20FAQ.md'>0 Installation und FAQ</a></br><a href='Woche%201/1%20Erste%20Schritte.ipynb'>1 Erste Schritte</a></br><a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%201/1%20Erste%20Schritte.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a></td>
             <td><a href='Woche%201/2%20Pandas%20retten%20den%20Tag.ipynb'>2 Pandas retten den Tag</a></br><a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%201/2%20Pandas%20retten%20den%20Tag.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a></td>
             <td><a href='Woche%201/3%20Sherlock%20Pandas%20und%20Data%20Watson.ipynb'>3 Sherlock Pandas und Data Watson</a></br><a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%201/3%20Sherlock%20Pandas%20und%20Data%20Watson.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a></td>
             <td><a href='Woche%201/4%20Wie%20skaliert%20eigentlich%20das%20ganze%3F.ipynb'>4 Wie skaliert eigentlich das ganze?</a></br><a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%201/4%20Wie%20skaliert%20eigentlich%20das%20ganze%3F.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a></td>
