@@ -1,13 +1,6 @@
 # Erste Schritte
 Um die praktischen Aufgaben zu lösen, benötigen Sie eine Juypter Notebook Umgebung. Diese können Sie entweder direkt bei sich auf den Computer installieren oder auf einen Online-Service wie Google Colab oder myBinder zurückgreifen. Nachdem Sie eine Lösung gewählt haben, probieren Sie zunächst die Basis Funktionen von Jupyter Notebooks anhand eines unsere Beispiele aus.
 
-## Ausführen von Code
-
-Jupyter Notebooks sind in Zellen von Code und Text organisiert, die ausgeführt werden müssen um Ergebnisse (`outputs`) zu produzieren
-Eine einzelne Zelle kann über die Menüleiste ausgeführt werden. In Google Colab hat jede Zelle einen `▶️` Button, bei eine Lokalen Installation muss die Zelle zuerst ausgewählt werden, z.B. durch einen Mausklick auf die Zelle.
-Anschließend kann mittels `▶️ Run`oder `Run Cells`, welches unter `Cell` in der Menüleiste zu finden ist, die Zelle ausgeführt werden. 
-Alternativ kann dies durch das gleichzeitige Drücken von `Shift`+`Enter` erfolgen.
-Sollen alle Zellen eines Notebooks ausgeführt werden, kann unter `Cell` `Run All` ausgewählt werden.
 
 Im nachfolgenden werden mögliche Probleme beschrieben.
 
@@ -108,7 +101,8 @@ Falls Sie Erfahrung mit dem Versionsverwaltungstool git haben oder sammeln wolle
 
 Google Colab ist unter [Link](https://research.google.com/colaboratory/) erreichbar.
 Bevor Notebooks hochgeladen und ausgeführt werden können, muss eine Anmeldung mit dem eigenen Google Account erfolgen.
-Anschließend gibt es zwei Möglichkeiten über die in der ReadME bereitgestellten Links können Sie direkt auf eine interaktive Version des gewünschten Notebooks zugreifen. Alternativ können Sie Notebook-Datein (mit der Endung `*.ipynb`) direkt hochladen, dazu:
+Anschließend gibt es zwei Möglichkeiten über die in der README bereitgestellten Links (<a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%201/2%20Pandas%20retten%20den%20Tag.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>) können Sie direkt auf eine interaktive Version des gewünschten Notebooks zugreifen. Alternativ können Sie Notebook-Datein (mit der Endung `*.ipynb`) direkt hochladen, dazu:
 
 * Falls bereits ein Fenster mit gelbem Menü geöffnet ist, kann in diesem direkt auf _Hochladen_ geklickt werden. Anschließend kann via Drag'n' drop oder mittels _Datei auswählen_ das gewünschte Notebook hochgeladen und anschließend bearbeitet, sowie ausgeführt werden.
 * Falls sich kein Fenster öffnet, kann im Menü der Punkt _Datei_ ausgewählt werden. Anschließend kann via _Notebook hochladen_ das Notebook per Drag'n' drop oder mittels _Datei auswählen_ hochgeladen sowie anschließend bearbeitet und ausgeführt werden.
+* Beachten Sie, dass Sie zuzätzliche Daten und Bilder hier ggf. manuell hochladen müssen
