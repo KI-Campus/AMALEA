@@ -1,43 +1,6 @@
-# Erste Schritte
+# Installation
 Um die praktischen Aufgaben zu lösen, benötigen Sie eine Juypter Notebook Umgebung. Diese können Sie entweder direkt bei sich auf den Computer installieren oder auf einen Online-Service wie Google Colab oder myBinder zurückgreifen. Nachdem Sie eine Lösung gewählt haben, probieren Sie zunächst die Basis Funktionen von Jupyter Notebooks anhand eines unsere Beispiele aus.
 
-
-Im nachfolgenden werden mögliche Probleme beschrieben.
-
-### Neustarten des Kernels
-
-Intern wird alles, was der/die Benutzende an Aktionen ausführt vom Kernel ausgeführt.
-Sollte das Notebook nicht mehr reagieren oder parallel ein neues Package installiert worden sein, muss dieser neu gestartet werden.
-Dies kann über die Menüleiste via `Kernel` und dann `Restart` erfolgen.
-
-### ModuleNotFoundError
-
-Sollte, nach der Ausführung, unterhalb einer Zelle ``ModuleNotFoundError`` (in rot) auftauchen, ist ein benötigtes Paket (engl. package) nicht installiert.
-In Packages findet sich Funktionalität, die von anderen programmiert worden ist und frei verwendet werden kann.
-Beispielsweise sind `pandas`, `random` oder `tensorflow` solche Packete.
-Fehlende Packete können mithilfe der Anaconda Prompt nachinstalliert werden.
-In der Regel ist ein Vermerk in den Notebooks enthalten, falls ein Package, dass nicht vorinstalliert sein sollte, verwendet wird.
-Dieser Vermerk beinhaltet einen Befehl, der in die Anaconda Promt eingegeben werden muss, um das fehlende Package zu installieren.
-
-In Woche 1 wird bspw. die Bibliothek `matplotlib` zum Anzeigen von Graphen verwendet.
-Der Befehl zur Installation hierfür lautet:
-
-    conda install -c conda-forge matplotlib
-    
-Dieser muss in die Anaconda Prompt eingegeben werden.
-Nachdem die Eingabe mittels Enter bestätigt wurde, beginnt Anaconda das Packet sowie mögliche Abhängigkeiten zu suchen.
-Sobald diese gefunden wurden, wird der/die Benutzende gefragt, ob er/sie das Packet (das bzw. die im Terminal angezeit wird/ werden) installieren möchte.
-Um dies zu bestätigen, muss ein y eingegeben und mit Enter bestätigt werden.
-Nun wird das Paket bzw. die Pakete installiert.
-
-### FileNotFoundError
-Sollte beim Ausführen ein `FileNotFoundError` auftreten, kann einer der Gründe sein, dass eine benötigte Datei nicht verfügbar ist.
-Überprüfen Sie dass der gewünschte Ordner und die Datei darin existiert. 
-
-In Google Colab müssen Sie ggf. Datein hochladen
-Wird bspw. die Datei `daten.csv` aus einem Ordner namens `data` eingelesen, muss diese Struktur in Google Colab vorhanden sein.
-Hierzu existiert auf der linken Seite ein weiteres Menü, in dem das Untermenü `Dateien` vorhanden ist. 
-Mittels diesem können z.B. weitere Daten sowie Ordner hochgeladen werden.
 
 ## Lokale Verwendung
 Dieser Abschnitt beschreibt die Installation von Anaconda und den Abhänigkeiten auf Ihrem Rechner.
@@ -77,7 +40,7 @@ Bevor wir nun mit dem Ausführen des Codes beginnen, müssen wir vorher eine vir
 Der Vorteil einer virtuellen Umgebung ist, dass alles, was innerhalb dieser Umgebung installiert wird, sich nicht auf das restliche System auswirkt.
 Außerdem kann, mithilfe der `amalea.yml` alle benötigten Pakete installiert werden, sodass dies später nicht nachgeholt werden muss.
 
-Um eine virtuelle Umgebung mithilfe der `amalea.yml` zu erstellen muss in die Anaconda Promt lediglich
+Um eine virtuelle Umgebung mithilfe der `amalea.yml` zu erstellen muss in die Anaconda Prompt lediglich
 
     conda env create --file amalea.yml
     
@@ -92,7 +55,7 @@ die virtuelle Umgebung aktiviert und mittels `jupyter notebook`. Jupyter Noteboo
 
 ### Daten und Notebooks laden
 Zuletzt benötigen Sie noch die hier bereitgestellten Daten. Für eine lokale Installation empfehlen wir einen vollständigen Download aller Wochen.
-Über [diesen Direkt-Link](https://github.com/KI-Campus/AMALEA/archive/refs/heads/master.zip) oder auf der Startseite diese Repositories unter `Code`-->`Download ZIP` erhalten sie ein ZIP Archiv mit allen benötigten Datein.
+Über [diesen Direkt-Link](https://github.com/KI-Campus/AMALEA/archive/refs/heads/master.zip) oder auf der Startseite diese Repositories unter `Code`-->`Download ZIP` erhalten sie ein ZIP Archiv mit allen benötigten Dateien.
 
 Falls Sie Erfahrung mit dem Versionsverwaltungstool git haben oder sammeln wollen, könne Sie dieses Repository auch direkt `clonen`. Eine Einführung finden Sie beispielsweise [hier](https://open.hpi.de/courses/git2020). 
 
@@ -101,8 +64,59 @@ Falls Sie Erfahrung mit dem Versionsverwaltungstool git haben oder sammeln wolle
 
 Google Colab ist unter [Link](https://research.google.com/colaboratory/) erreichbar.
 Bevor Notebooks hochgeladen und ausgeführt werden können, muss eine Anmeldung mit dem eigenen Google Account erfolgen.
-Anschließend gibt es zwei Möglichkeiten über die in der README bereitgestellten Links (<a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%201/2%20Pandas%20retten%20den%20Tag.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>) können Sie direkt auf eine interaktive Version des gewünschten Notebooks zugreifen. Alternativ können Sie Notebook-Datein (mit der Endung `*.ipynb`) direkt hochladen, dazu:
+Anschließend gibt es zwei Möglichkeiten über die in der README bereitgestellten Links (<a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%201/2%20Pandas%20retten%20den%20Tag.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>) können Sie direkt auf eine interaktive Version des gewünschten Notebooks zugreifen. Alternativ können Sie Notebook-Dateien (mit der Endung `*.ipynb`) direkt hochladen, dazu:
 
 * Falls bereits ein Fenster mit gelbem Menü geöffnet ist, kann in diesem direkt auf _Hochladen_ geklickt werden. Anschließend kann via Drag'n' drop oder mittels _Datei auswählen_ das gewünschte Notebook hochgeladen und anschließend bearbeitet, sowie ausgeführt werden.
 * Falls sich kein Fenster öffnet, kann im Menü der Punkt _Datei_ ausgewählt werden. Anschließend kann via _Notebook hochladen_ das Notebook per Drag'n' drop oder mittels _Datei auswählen_ hochgeladen sowie anschließend bearbeitet und ausgeführt werden.
-* Beachten Sie, dass Sie zuzätzliche Daten und Bilder hier ggf. manuell hochladen müssen
+* Beachten Sie, dass Sie zusätzliche Daten und Bilder hier ggf. manuell hochladen müssen
+
+Notebooks, die externe Daten benötigen starten mit einer Zeile, mit der diese Daten automatisch heruntergeladen werden. Bitte führen Sie diese Zelle aus!
+
+## myBinder
+[MyBinder](https://mybinder.org/) ist eine Plattform, die kostenlos und ohne Anmeldung interaktive Notebook Umgebungen zur Verfügung stellt. Über die in der README verfügbaren Links <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%201/3%20Sherlock%20Pandas%20und%20Data%20Watson.ipynb'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a> können die einzelnen Notebooks direkt aufgerufen werden. myBinder kopiert automatisch alle benötigten Daten und installiert notwendige Packete, daher sollte es hier zu keinen Problem kommen. Sie können auch alle Programmierübungen auf einmal öffnen, klicken Sie dazu <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a> . Anschließend können Sie die gewünschte Übung aus dem entsprechenden Übungsorder auswählen.
+
+Bitte beachten Sie, dass das Starten von myBinder - je nach Auslastung - mehrere Minuten dauern kann und in der Umgebung keine GPUs zur Verfügung stehen, sodass das Training von Neuronalen Netzen (ab Woche 5) länger dauern kann.
+
+# FAQ
+
+Im nachfolgenden werden mögliche Probleme und Lösungen beschrieben.
+Grundsätzliche empfehlen wir folgendes Vorgehen: 
+
+1. Bitte starten Sie den Kernel neu.
+2. Überprüfen Sie das alle Abhängigkeiten, also benötigte Pakete und Daten vorhanden sind und Sie auf diese zugreifen können.
+3. Suchen Sie hier in unserer FAQ, im Forum oder Online nach Unterstützung.
+
+### Neustarten des Kernels
+
+Intern wird alles, was der/die Benutzende an Aktionen ausführt, vom Kernel ausgeführt.
+Sollte das Notebook nicht mehr reagieren oder parallel ein neues Package installiert worden sein, muss dieser neu gestartet werden.
+Dies kann über die Menüleiste via `Kernel` und dann `Restart` erfolgen.
+
+### ModuleNotFoundError
+
+Sollte, nach der Ausführung, unterhalb einer Zelle ``ModuleNotFoundError`` (in rot) auftauchen, ist ein benötigtes Paket (engl. package) nicht installiert.
+In Packages findet sich Funktionalität, die von anderen programmiert worden ist und frei verwendet werden kann.
+Beispielsweise sind `pandas`, `random` oder `tensorflow` solche Pakete.
+Fehlende Pakete können mithilfe der Anaconda Prompt nachinstalliert werden.
+In der Regel ist ein Vermerk in den Notebooks enthalten, falls ein Package, dass nicht vorinstalliert sein sollte, verwendet wird.
+Dieser Vermerk beinhaltet einen Befehl, der in die Anaconda Prompt eingegeben werden muss, um das fehlende Package zu installieren.
+
+In Woche 1 wird bspw. die Bibliothek `matplotlib` zum Anzeigen von Graphen verwendet.
+Der Befehl zur Installation hierfür lautet:
+
+    conda install -c conda-forge matplotlib
+    
+Dieser muss in die Anaconda Prompt eingegeben werden.
+Nachdem die Eingabe mittels Enter bestätigt wurde, beginnt Anaconda das Paket sowie mögliche Abhängigkeiten zu suchen.
+Sobald diese gefunden wurden, wird der/die Benutzende gefragt, ob er/sie das Paket (das bzw. die im Terminal angezeigt wird/ werden) installieren möchte.
+Um dies zu bestätigen, muss ein y eingegeben und mit Enter bestätigt werden.
+Nun wird das Paket bzw. die Pakete installiert.
+
+### FileNotFoundError
+Sollte beim Ausführen ein `FileNotFoundError` auftreten, kann einer der Gründe sein, dass eine benötigte Datei nicht verfügbar ist.
+Überprüfen , dass der gewünschte Ordner und die Datei darin existiert. 
+
+In Google Colab müssen Sie ggf. Dateien hochladen
+Wird bspw. die Datei `daten.csv` aus einem Ordner namens `data` eingelesen, muss diese Struktur in Google Colab vorhanden sein.
+Hierzu existiert auf der linken Seite ein weiteres Menü, in dem das Untermenü `Dateien` vorhanden ist. 
+Mittels diesem können z.B. weitere Daten sowie Ordner hochgeladen werden.
