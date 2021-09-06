@@ -1,5 +1,5 @@
 # Installation
-Um die praktischen Aufgaben zu lösen, benötigen Sie eine Juypter Notebook Umgebung. Diese können Sie entweder direkt bei sich auf den Computer installieren oder auf einen Online-Service wie Google Colab oder myBinder zurückgreifen. Nachdem Sie eine Lösung gewählt haben, probieren Sie zunächst die Basis Funktionen von Jupyter Notebooks anhand eines unsere Beispiele aus.
+Um die praktischen Aufgaben zu lösen, benötigen Sie eine Juypter Notebook Umgebung. Diese können Sie entweder direkt bei sich auf den Computer installieren oder auf einen Online-Service wie Google Colab oder myBinder zurückgreifen. Nachdem Sie eine Lösung gewählt haben, probieren Sie zunächst die Basis Funktionen von Jupyter Notebooks anhand eines unsere [Beispiele](1%20Erste%20Schritte.ipynb) aus.
 
 
 ## Lokale Verwendung
