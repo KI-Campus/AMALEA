@@ -6,7 +6,7 @@ sklearn
 ipywidgets
 graphviz
 hdbscan
-skimage
+scikit-image
 scipy
 seaborn
 plotly
