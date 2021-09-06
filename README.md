@@ -21,9 +21,6 @@ Weitere Information finden sich [hier](Woche%201/1%20Erste%20Schritte.md).
             <td>
                 <a href='Woche%201/0%20Installation%20und%20FAQ.md'>0 Installation und FAQ</a>
                 </br>
-                <a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%201/0%20Installation%20und%20FAQ.md'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>
-                </br>
-                <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%201/0%20Installation%20und%20FAQ.md'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a>
             </td>
             <td>
                 <a href='Woche%201/1%20Erste%20Schritte.ipynb'>1 Erste Schritte</a>
