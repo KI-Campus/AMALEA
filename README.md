@@ -2,7 +2,7 @@
 Herzlich Wilkommen bei den praktischen Programmierübungen für den [Kurs AMALEA - AMALEA - Angewandte Machine Learning Algorithmen](https://learn.ki-campus.org/courses/amalea-kit2021). Hier finden Sie alle Aufgaben und weitere Hinweise für die praktischen Programmieraufgaben. 
 
 Die insgesamt sechs Kurswochen werden mit [Jupyter Notebooks](https://jupyter.org/) begeleitet, die Sie hier in den einzelnen Ordnern finden können.
-Als Verbindungglied von Text und Python-Code sind Notebooks, perfekt für einen Einstieg in Machine Learning geeignet. Die Bedienung ist simple und [hier](Woche%201/1%20Erste%20Schritte.md#ausf%C3%BChren-von-code) nochmal im Detail beschrieben
+Als Verbindungglied von Text und Python-Code sind Notebooks, perfekt für einen Einstieg in Machine Learning geeignet. Die Bedienung ist simpel und [hier](Woche%201/1%20Erste%20Schritte.md#ausf%C3%BChren-von-code) nochmal im Detail beschrieben
 
 # Anwendungsmöglichkeiten
 
@@ -12,7 +12,7 @@ Im Allgemeinen stehen für den praktischen Teil (Jupyter Notebooks) drei Anwendu
 * Google Colaboratory:  Online Plattform - keine Installation nötig, aber Google Account
 * MyBinder: Online Plattform ohne Anmeldung
 
-Weitere Information finden sich [hier](Woche%201/1%20Erste%20Schritte.md).
+Weitere Information finden sich [hier](Woche%201/0%20Installation%20und%20FAQ.md).
 
 <table>
     <tbody>
