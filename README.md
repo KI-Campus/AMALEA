@@ -117,18 +117,18 @@ Weitere Information finden sich [hier](Woche%201/1%20Erste%20Schritte.md).
                 <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%204/2%20Wir%20trainieren%20nur%20bergab.ipynb'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a>
             </td>
             <td>
-                <a href='Woche%204/3%20Regression%20II%3A%20K%C3%BCnstliche%20Gehirne%20erzeugen%20f%C3%BCr%20Dummies.ipynb'>3 Regression II: Künstliche Gehirne erzeugen für Dummies</a>
+                <a href='Woche%204/3%20Regression%20II%20K%C3%BCnstliche%20Gehirne%20erzeugen%20f%C3%BCr%20Dummies.ipynb'>3 Regression II: Künstliche Gehirne erzeugen für Dummies</a>
                 </br>
-                <a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%204/3%20Regression%20II%3A%20K%C3%BCnstliche%20Gehirne%20erzeugen%20f%C3%BCr%20Dummies.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>
+                <a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%204/3%20Regression%20II%20K%C3%BCnstliche%20Gehirne%20erzeugen%20f%C3%BCr%20Dummies.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>
                 </br>
-                <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%204/3%20Regression%20II%3A%20K%C3%BCnstliche%20Gehirne%20erzeugen%20f%C3%BCr%20Dummies.ipynb'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a>
+                <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%204/3%20Regression%20II%20K%C3%BCnstliche%20Gehirne%20erzeugen%20f%C3%BCr%20Dummies.ipynb'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a>
             </td>
             <td>
-                <a href='Woche%204/4%20Classification%3A%20Softmax-Eis%20f%C3%BCr%20einen%20one-hot%20day.ipynb'>4 Classification: Softmax-Eis für einen one-hot day</a>
+                <a href='Woche%204/4%20Classification%20Softmax-Eis%20f%C3%BCr%20einen%20one-hot%20day.ipynb'>4 Classification: Softmax-Eis für einen one-hot day</a>
                 </br>
-                <a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%204/4%20Classification%3A%20Softmax-Eis%20f%C3%BCr%20einen%20one-hot%20day.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>
+                <a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%204/4%20Classification%20Softmax-Eis%20f%C3%BCr%20einen%20one-hot%20day.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>
                 </br>
-                <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%204/4%20Classification%3A%20Softmax-Eis%20f%C3%BCr%20einen%20one-hot%20day.ipynb'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a>
+                <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%204/4%20Classification%20Softmax-Eis%20f%C3%BCr%20einen%20one-hot%20day.ipynb'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a>
             </td>
         </tr>
         <tr>
@@ -141,11 +141,11 @@ Weitere Information finden sich [hier](Woche%201/1%20Erste%20Schritte.md).
                 <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%205/1%20Falten%2C%20Ausschneiden%20und%20fertig%20ist%20das%20CNN.ipynb'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a>
             </td>
             <td>
-                <a href='Woche%205/2%20Inhaltsstoffe%3A%20Kann%20Spuren%20von%20Intelligenz%20enthalten.ipynb'>2 Inhaltsstoffe: Kann Spuren von Intelligenz enthalten</a>
+                <a href='Woche%205/2%20Inhaltsstoffe%20Kann%20Spuren%20von%20Intelligenz%20enthalten.ipynb'>2 Inhaltsstoffe: Kann Spuren von Intelligenz enthalten</a>
                 </br>
-                <a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%205/2%20Inhaltsstoffe%3A%20Kann%20Spuren%20von%20Intelligenz%20enthalten.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>
+                <a href='https://colab.research.google.com/github/KI-Campus/AMALEA/blob/master/Woche%205/2%20Inhaltsstoffe%20Kann%20Spuren%20von%20Intelligenz%20enthalten.ipynb'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open In Colab'></a>
                 </br>
-                <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%205/2%20Inhaltsstoffe%3A%20Kann%20Spuren%20von%20Intelligenz%20enthalten.ipynb'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a>
+                <a href='https://mybinder.org/v2/gh/KI-Campus/AMALEA/HEAD?filepath=Woche%205/2%20Inhaltsstoffe%20Kann%20Spuren%20von%20Intelligenz%20enthalten.ipynb'><img src='https://mybinder.org/badge_logo.svg' alt='Open In myBinder'></a>
             </td>
             <td>
                 <a href='Woche%205/3%20Datenmangel%20Copy%20augmentated%20Paste.ipynb'>3 Datenmangel? Copy & augmentated Paste</a>
