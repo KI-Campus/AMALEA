@@ -12,29 +12,13 @@ Hierzu muss Anaconda installiert sein.
 Anaconda ist kostenlos und kann [hier](https://www.anaconda.com/products/individual) heruntergeladen werden.
 Anschließend muss das Programm installiert werden - hierbei darauf achten, dass Python 3.X und nicht Python 2.X installiert wird.
 
-### Starten von Anaconda
+### Daten und Notebooks laden
+Außerdem benötigen Sie noch die hier bereitgestellten Daten. Für eine lokale Installation empfehlen wir einen vollständigen Download aller Wochen.
+Über [diesen Direkt-Link](https://github.com/KI-Campus/AMALEA/archive/refs/heads/master.zip) oder auf der Startseite dieses Repositories unter `Code`-->`Download ZIP` erhalten sie ein ZIP Archiv mit allen benötigten Dateien.
 
-Nun muss die _Anaconda Prompt_ (auch _Anaconda Prompt (Anaconda3)_) gestartet werden.
-Diese taucht als installiertes Programm in der Programmliste auf.
-Nun muss noch der Pfad zu den Notebooks herausgefunden werden.
-Wurden diese heruntergeladen, können diese z.B. im Downloadordner liegen.
-Ein Beispiel hierfür wäre: `C:\Users\Max\Downloads\notebooks`
+Falls Sie Erfahrung mit dem Versionsverwaltungstool git haben oder sammeln möchten, könne Sie dieses Repository auch direkt mit git clonen (`git clone https://github.com/KI-Campus/AMALEA.git`). Eine Einführung in git finden Sie beispielsweise [hier](https://open.hpi.de/courses/git2020). 
 
-Nun wird dieser Pfad mit einem Vorangestellten "cd " in die Anaconda Prompt eingegeben.
-In dem genannten Beispiel also:
-
-    cd C:\Users\Max\Downloads\notebooks
-
-und anschließend mittels Enter bestätigen.
-Als Nächstes muss in das Terminal noch
-
-    jupyter notebook .
-    
-eingegeben und wieder mittels Enter bestätigt, werden.
-Nun sollte im Terminal etwas angezeigt werden - was im folgenden nicht mehr wichtig ist - und sich ein neues Browser-Fester bzw. -Reiter öffnen.
-Nun sollten die im _notebooks_ Ordner abgelegt Jupyter Notebooks (bzw. deren Überordner) angezeigt werden - beides kann durch einen Mausklick geöffnet werden und das Notebook öffnet sich.
-
-### Virtuelle Umgebung
+### Virtuelle Umgebung (einmalig)
 
 Bevor wir nun mit dem Ausführen des Codes beginnen, müssen wir vorher eine virtuelle Umgebung erstellen.
 Der Vorteil einer virtuellen Umgebung ist, dass alles, was innerhalb dieser Umgebung installiert wird, sich nicht auf das restliche System auswirkt.
@@ -51,14 +35,31 @@ Sobald die Installation abgeschlossen ist, kann mittels
 
     conda activate amalea
 
-die virtuelle Umgebung aktiviert und mittels `jupyter notebook`. Jupyter Notebook gestartet werden.
+die virtuelle Umgebung aktiviert und mittels `jupyter notebook .`  die Jupyter Notebook Umgebung gestartet werden.
 
-### Daten und Notebooks laden
-Zuletzt benötigen Sie noch die hier bereitgestellten Daten. Für eine lokale Installation empfehlen wir einen vollständigen Download aller Wochen.
-Über [diesen Direkt-Link](https://github.com/KI-Campus/AMALEA/archive/refs/heads/master.zip) oder auf der Startseite diese Repositories unter `Code`-->`Download ZIP` erhalten sie ein ZIP Archiv mit allen benötigten Dateien.
+### Starten von Anaconda
 
-Falls Sie Erfahrung mit dem Versionsverwaltungstool git haben oder sammeln wollen, könne Sie dieses Repository auch direkt `clonen`. Eine Einführung finden Sie beispielsweise [hier](https://open.hpi.de/courses/git2020). 
+Um an den Übungen zu arbeiten, muss als erstes die _Anaconda Prompt_ (auch _Anaconda Prompt (Anaconda3)_) gestartet werden.
+Diese taucht als installiertes Programm in der Programmliste auf. Unter Mac (oder) Linux kann direkt das Terminal aufgerufen werden und die anleitung hier weiter befolgt werden
+Nun muss noch der Pfad zu den Notebooks herausgefunden werden.
+Wurden diese heruntergeladen, können diese z.B. im Downloadordner liegen.
+Ein Beispiel hierfür wäre: `C:\Users\Max\Downloads\AMALEA`
 
+Nun wird dieser Pfad mit einem Vorangestellten "cd " in die Anaconda Prompt eingegeben.
+In dem genannten Beispiel also:
+
+    cd C:\Users\Max\Downloads\AMALEA
+
+und anschließend mittels Enter bestätigen.Für  Mac und Linux Nutzer unterscheidet sich der Befehl leicht im Dateipfad z.B. `cd ~/Downloads/AMALEA/`
+Als Nächstes muss in das Terminal noch
+
+    jupyter notebook .
+    
+eingegeben und wieder mittels Enter bestätigt, werden.
+Nun sollte im Terminal etwas angezeigt werden - was im folgenden nicht mehr wichtig ist - und sich ein neues Browser-Fester bzw. -Reiter öffnen.
+Nun sollten die im _AMALEA_ Ordner abgelegt Jupyter Notebooks (bzw. deren Überordner) angezeigt werden - beides kann durch einen Mausklick geöffnet werden und das entsprechende Notebook öffnet sich.
+
+Schließen lässt sich die Umgebung im Terminal mit der Tastenkombination `Ctrl+C` bzw. `Ctrl-Break` und anschließender Bestätigung mit `y` (für "yes").
 
 ## Google Colab
 
